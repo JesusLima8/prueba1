@@ -1,0 +1,69 @@
+
+/* public/css/custom.css */
+.admin-controls h2 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    user-select: none;
+}
+.admin-controls ul {
+    margin-top: 5px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.admin-controls ul li a {
+    display: block;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+.admin-controls ul li a:hover {
+    background-color: #007bff;
+    color: white;
+}
+/* Estilos para los labels del formulario con fondo azul y texto blanco */
+.form-label {
+    color: white;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block; /* Ajusta el tamaño del fondo al texto */
+    margin-bottom: 10px; /* Espacio entre la etiqueta y el input */
+}
+
+/* Estilos para los campos de entrada para controlar el ancho */
+.form-control,
+.form-control select {
+    display: block; /* Asegura que los controles de formulario ocupen la línea completa si es necesario */
+    width: 20%; /* Ajusta esto para hacer los inputs más pequeños */
+    margin-bottom: 20px; /* Espacio entre inputs */
+    padding: 10px; /* Padding dentro del input */
+    border-radius: 5px; /* Bordes redondeados para los inputs */
+}
+/* public/css/custom.css */
+.agregar {
+    color: white;
+    background-color: #f78b27;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block; /* Ajusta el tamaño del fondo al texto */
+    margin-bottom: 10px; /* Espacio entre la etiqueta y el input */
+}
+/* Ajustar selectores para que coincidan con los inputs y select */
+select.form-control {
+    width: 20%; /* Asegura que el selector tenga el mismo ancho que los inputs */
+}
+/* public/css/custom.css */
+.btn-primary {
+    background-color: #ff0000; /* Rojo */
+    border-color: #ff0000; /* Borde del mismo color */
+}
+
+.btn-primary:hover {
+    background-color: #cc0000; /* Rojo oscuro */
+    border-color: #cc0000;
+}
+
+
